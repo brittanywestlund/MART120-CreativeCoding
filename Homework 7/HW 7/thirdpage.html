@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>thirdpage</title>
+
+	
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="mainstyle.css" />
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	
+
+<style>
+	body {font-family: 'Raleway', sans-serif; color:#353535; background-color: thistle;}
+	
+	
+	
+	
+	.navcontainer {
+	
+	position: relative !important;
+ 	background-color: #333 !important;
+ 	overflow: hidden !important;
+	height: 2em !important;
+	text-align: center !important;
+	
+}
+
+.navcontainer a {
+	
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 0px 25px 0px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: -6px;
+	
+	
+}
+
+.navcontainer a:hover {
+	
+  color: thistle;
+	
+}
+
+.navcontainer a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.nav a {
+	
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}	
+	
+	</style>
+	
+</head>
+<body>
+	<h1 style="text-align:center; font-size: 40px; height: 100px; margin-top: 50px;"><b>Contact Us</b></h1>
+	
+		<div class="navcontainer">
+			<p><a class="contact" href="thirdpage.html">CONTACT</a></p>
+			<p><a class="nav" href="secondpage.html">STORY</a></p>
+			<p><a class="nav" href="homepage.html">HOME</a></p>
+		</div>
+		
+	<p></p>
+	
+	<form action="">
+		<p>First Name: <input type="text" id="firstname"></p>
+		<p>Last Name: <input type="text" id="lastname"></p>
+		<p>Email Address: <input type="text" id="email"></p>
+		<p><b style="font-size: 12px; text-transform: uppercase;">Do you accept the terms of agreement?</b></p>
+		
+		<div style="margin-top:-10px; font-size: 14px;">
+			<input id="radioyes" style="margin-bottom: 5px;" type="radio" name="yes" value="yes"> Yes<br>
+			<input id="radiono" type="radio" name="no" value="no"> No<br>
+		</div>
+		
+		<p><button id="submitbutton">Submit</button></p>
+	</form>
+
+
+	
+</body>
+</html>
