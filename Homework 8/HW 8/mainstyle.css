@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Raleway', sans-serif; 
+	color:#353535; 
+	background-color: thistle;
+
+}
+
+h1 {
+	font-size: 40px;
+}
+
+a:link {color: #513151;}  
+a:visited {color: dimgray;}  
+a:hover {color: #AA73AA}  
+a:active {color: #C0F0FC}  
+
+a {text-decoration: none;}
+
+.movie {
+	list-style:url("images/purpleflower2.png"); 
+	list-style-type: circle; 
+	list-style-position: inside;
+	
+}
+
+#sublist {
+	margin-top: -5px;
+	
+}
+
+.hero {
+    position: relative; 
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+
+.hero::before {    
+    content: "";
+    background-image: url('images/purple-blue.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.73;
+	
+}
+
+
+#submitbutton {
+	border-radius:12px; 
+	background-color:#412F42; 
+	color:white; font-family: 'Raleway', sans-serif; 
+	text-transform: uppercase; 
+	padding: .4em .9em .4em .9em; 
+	font-size: .7em; 
+	letter-spacing: 1px; 
+	border: none;
+	margin-top: 7px;
+}
+
+
+
+#story {
+	text-indent: 18px;
+	margin-left: 40px;
+	
+}
+
+p a {
+	margin-left: -25px;
+	
+}
+
+.story p {
+	text-indent: 30px;
+	
+}
+
+
+.navcontainer {
+	position: relative;
+ 	background-color: #333;
+ 	overflow: hidden;
+	height: 2em;
+	padding-bottom: 2.4em;
+	
+}
+
+.navcontainer a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 0px 25px 0px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	height: 2em;
+	
+}
+
+.contact {
+	position:relative;
+    bottom:-16px; 
+	display: inline-block;}
+
+.navcontainer a:hover {
+  	color: thistle;
+	
+}
+
+.navcontainer a.active {
+  	background-color: #04AA6D;
+  	color: white;
+	
+}
+
+
+.nav a {
+  	float: none;
+  	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+	
+}
+
+
